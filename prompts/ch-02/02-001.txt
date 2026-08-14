@@ -1,0 +1,1 @@
+I want to build a terminal utility called SysPulse in the claude-black-book/syspulse folder. It should read local CPU usage, memory and system uptime, and display it in a clean, beautifully formatted real-time dashboard in the terminal. Please write this in Node.js, install any dependencies, and make sure it is ready to run.

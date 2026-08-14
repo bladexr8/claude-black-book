@@ -1,0 +1,28 @@
+{
+  "name": "syspulse",
+  "version": "1.0.0",
+  "description": "A beautiful real-time system metrics dashboard for the terminal",
+  "main": "index.js",
+  "bin": {
+    "syspulse": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "system",
+    "monitoring",
+    "dashboard",
+    "terminal",
+    "realtime"
+  ],
+  "author": "Stephen Moss",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

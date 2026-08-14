@@ -1,0 +1,1 @@
+Ensure the .gitignore file in the claude-black-book folder is up to date, stage all my files, and commit this project as 'feat: initial release of sysPule Dashboard'
