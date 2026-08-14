@@ -1,0 +1,16 @@
+<context>
+I want to build a robust, interactive command-line calculator in Python.
+
+This tool must run in a continuous loop, taking user inputs, executing operations, and maintaining a memory state.
+</context>
+<requirements>
+- Implement basic operations: addition, subtraction, multiplication, division
+- Implement advanced operations: power (x^y) and square root
+- Implement a Memory Register: MS (Store current result), MR (Recall Memory), MC (Clear Memory), m+ (Add current result to memory)
+- Robust error handling: ZeroDivisionError, ValueError(for non-numeric inputs), and negative inputs for square roots
+- a clean, interactive CLI menu that displays the current value and the memory register value at all times
+</requirements>
+<file_structure>
+Create a single, clean file named 'calculator.py'. Ensure the code is documented with clear docstrings and comments.
+</file_structure>
+Generate the complete, production-ready Python implementation

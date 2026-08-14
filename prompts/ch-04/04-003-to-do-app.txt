@@ -1,0 +1,20 @@
+<context>
+I want to create a responsive, modern local To-Do Task Application.
+
+It must run entirely in a single file ('index.html') using Tailwind CSS via CDN for clean, immediate styling. No complicated build steps or npm installations are required.
+</context>
+<ui_requirements>
+- A clean, modern card-based interface with a subtle gradient background
+- Responsive design that looks perfect on both mobile screens and desktop displays
+- High-quality visual cues: smooth hover transitions, custom active states, and clear typography.
+- Interactive input field with a clear "Add Task" button and a priority dropdown (Low, Medium, High)
+</ui_requirements>
+<functional_requirements>
+- Add tasks with a title, priority level, and unique timestamp
+- Delete tasks with an immediate visual fade-out
+- Toggle completion status by clicking a custom checkbox
+- Filter tasks dynamically via tabs: "All", "Active", "Completed"
+- Sort tasks automatically by priority level (High > Medium > Low)
+- Persist all tasks in the browser's 'localStorage' so data is preserved on refresh
+</functional_requirements>
+Generate the complete, self-contained 'index.html' file

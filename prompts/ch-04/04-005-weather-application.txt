@@ -1,0 +1,18 @@
+<context>
+I want to build a connected Weather Application with a secure local proxy architecture.
+
+The frontend must query a local Python backend which securely communicates with the OpenWeatherMap API using a private API key stored in environmental variables
+</context>
+<backend_requirements>
+- Use FastAPI to build a secure endpoint '/api/weather?city=[city_name]'
+- Read the API key from a local '.env' file containing 'OPENWEATHER_API_KEY'
+- Handle external API errors gracefully: city not found (404), unauthorised API key (401), or network timeouts
+- Serve a static 'index.html' file using FastAPI's static file capabilities
+</backend_requirements>
+<frontend_requirements>
+- A dashboard containing a city search input and a visually dynamic weather card
+- Display the city name, current temperature (Celsius), humidity, wind speed, and weather description
+- Dynamically change card background colours or icons based on the current weather condition (e.g. sunny, rainy, cloudy, snowy)
+- Handle errors cleanly on the UI (e.g. display a user-friendly error card if the city does not exist)
+</frontend_requirements>
+Generate the complete, production-ready system architecture

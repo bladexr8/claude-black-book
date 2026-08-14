@@ -1,0 +1,5 @@
+Write a comprehensive backend integration test suite for 'main.py' using 'pytest'
+
+Use mock objects to intercept 'requests.get' calls to the OpenWeatherMap API so we can test our FastAPI endpoints locally without making real network requests.
+
+Save this as 'test_main.py'
