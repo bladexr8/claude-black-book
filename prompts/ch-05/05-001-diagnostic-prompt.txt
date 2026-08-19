@@ -1,0 +1,12 @@
+Understand the state of the application at the moment of failure.
+
+Analyse the following error message and stack trace:
+
+[PASTE STACK TRACE HERE]
+
+Execute a systemic Root Cause Analysis by answering these four questions:
+
+1. What is the immediate technical trigger of this error (the "What")?
+2. What are the upstream conditions that allowed this invalid state to occur (the "How")
+3. Which specific files and lines of code in our repository are responsible for generating or passing this invaid state?
+4. What is the most architecturally sound, robust fix that prevents this class of error from ever occurring again, rather than just hiding the symptom?
