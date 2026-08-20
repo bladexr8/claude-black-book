@@ -1,0 +1,7 @@
+Act as a Principal Product Manager. We are going to build a microservice-based system called "NotifyHub" - a lightweight, high throughput notification dispatch service that handles email, SMS, and push notifications with automated retry logic and rate limiting.
+Do not write and application code yet. Instead ask me 5 targeted questions about the business requirements, scale, and integration preferences to clarify the scope.
+Once I answer, synthesise our discussion into a markdown file named 'ch10/specs/system_specification.md'. This file must include:
+1. Core Functional requirements
+2. Non-Functional Requirements (latency, throughput, security)
+3. Out of Scope items
+4. User/API Flow Diagrams (represented in text or Mermaid format)

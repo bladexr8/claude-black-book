@@ -1,0 +1,7 @@
+Act as an expert Technical Writer. Scan our transport layer files inside 'ch10/src/transport/' and parse our HTTP endpoints.
+Generate a standard OpenAPI 3.0 specification file named 'ch10/docs/openapi.yaml' that thoroughly details:
+1. Every available endpoint, HTTP method, and path parameter
+2. Request body schemas with field descriptions, types, and validation constraints
+3. Response schemas for success (200, 202) and error states (400, 429, 500)
+4. Security schemes (such as API keys or Bearer tokens)
+Also create a clean 'README.md' in the application root directory explaining how to install, configure, run and test NotifyHub, complete with curl examples for every endpoint.

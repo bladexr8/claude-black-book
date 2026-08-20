@@ -1,0 +1,7 @@
+Act as a Principal Software Architect. Read 'ch10/specs/system_specification.md'.
+Design a clean, decoupled architecture for NotifyHub. Create a new file named 'ch10/specs/architecture_blueprint.md' containing:
+1. High Level System Architecture (services, databases, message queues)
+2. Database Schemas (PostgresSQL table definitions and Redis key-value structures)
+3. API Specifications (JSON Schemas for requests and responses)
+4. Directory Structure Map for entire repository
+Use clean architecture principles, ensuring strict separation of concerns between our business logic, data storage layers, and external transport delivery API's.

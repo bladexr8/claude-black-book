@@ -1,0 +1,3 @@
+Read 'ch10/specs/architecture_blueprint.md'
+Generate the core domain models for NotifyHub inside 'ch10/src/domain/'. Let's write this in Javascipt/Nodejs. Create 'ch10/src/domain/notification.js' representing the notification entity, its status states (Pending, Sent, Failed), and basic validation methods.
+Ensure the code is clean, self-contained, and contains zero external dependencies.

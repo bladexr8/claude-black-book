@@ -1,0 +1,5 @@
+Act as a Site Reliability engineer. We want to ensure NotifyHub remains secure, fast, and healthy over time.
+Please write:
+1. A health check endpoint handler ('/healthz') inside 'ch10/src/transport/' that checks database connectivity, Redis ping response, and system disk space, returning a structured JSON response.
+2. A local maintenance script 'ch10/scripts/audit_system.sh' that uses Claude Code to run static analysis tools, check for outdated or vulnerable dependencies, and scan for hardcoded secrets or credentials.
+3. A troubleshooting runbook named 'ch10/docs/troubleshooting-runbook.md' detailing how to diagnose common production failures (such as database connection pools filling up, Redis cache misses, or high API error rates)

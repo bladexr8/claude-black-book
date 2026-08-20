@@ -1,0 +1,10 @@
+Act as a DevOps engineer. Create a highly optimised, multi-stage 'Dockerfile' for NotifyHub that:
+1. Uses a lightweight builder image to compile our binary.
+2. Copies the compiled binary into a minimal, secure runner image (like alpine or distroless)
+3. Exposes the correct application ports
+4. Runs under a non-root system user for security hardening.
+Next, write a Github Actions workflow file 'ch10/.github/workflows/deploy.yml' that triggers on every push to the main branch. The workflow must:
+1. Run our unit and integration tests
+2. Build the Docker image
+3. Run a security vulnerability scan on the image
+4. Outline the steps to push the image to a container registry and deploy it to our cloud environment.

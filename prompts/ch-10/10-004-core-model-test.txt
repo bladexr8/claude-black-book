@@ -1,0 +1,1 @@
+Write a comprehensive unit test file 'ch10/src/domain/notification_test.js' to verify all validation rules and state transitions for our notification entity. Run the tests using the terminal and show me the results.

@@ -1,1 +1,1 @@
-Stage all my files, and commit this project as 'feat: 
+Stage all my files, and commit this project as 'feat: <<commit description>>' and synchronise to the remote 'origin' repository

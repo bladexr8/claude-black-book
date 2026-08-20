@@ -1,0 +1,8 @@
+Act as a QA Automation Engineer. I deen to verify that our HTTP Transport Layer, Service Dispatcher, and Repository Layers work together seamlessly.
+Create an integration test file 'ch10/tests/integration_test.js' that:
+1. Initialises a local test database and applies migrations
+2. Seeds necessary configuration data
+3. Starts a test instance of our NotifyHub server
+4. Sends a mock HTTP POST request to dispatch a notification
+5. Asserts that the response is 202 Accepted, the database record is updated to 'Sent', and the dispatch was logged.
+Write a shell script 'run_integration_tests.sh' that sets up any local environment variables, runs this integration test, and cleans up the databases afterward.
