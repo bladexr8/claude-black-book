@@ -1,0 +1,15 @@
+<task_specification>
+<context>
+Our Node.js service is crashing with an out of memory (OOM) error during the ingestion of 2GB+ JSON payloads in 'src/ingest/parser.ts'
+</context>
+<agent_instructions>
+1. Scan the directory to locate all files importing or interacting with 'src/ingest/parser.ts'
+2. Analyse the current memory footprint of our parsing logic
+3. Propose two distinct architectural paths to solve the issue:
+- Path A: A memory-mapped file stream approach
+- Path B: A chunked pipeline parser using a stream-json library
+4. Evaluate both paths based on: CPU utilisation, memory overhead, and implementation complexity. Present this in a clean markdown comparison table
+5. Once you have selected the optimal path, rewrite the parser to implement it
+6. Verify that your implementation does not introduce regression errors by checking against our existing test suite
+</agent_instructions>
+</task_specification>

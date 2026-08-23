@@ -1,0 +1,19 @@
+<instruction>
+Analyse the provided OpenAPI specification and generate a structured JSON map of all write-operations (POST, PUT, DELETE)
+</instruction>
+<schema_specification>
+Your output must be a single, valid JSON object wrapped inside a '<json_payload>' XML tag. Do not include markdown code blocks (such as ```json) or any pre-text or post text.
+The JSON must strictly match the following TypeScript interface:
+interface WriteOperationsMap {
+    operations: Array<{
+        path: string;
+        method: 'POST'|'PUT'|'DELETE';
+        description: string;
+        requiredHeaders: string[];
+        payloadSchema: Record<string, any>;
+    }>;
+}
+</schema_specification>
+<openapi_spec>
+<!-- Paste your raw YAML or JSON OpenAPI spec here -->
+</openapi_spec>

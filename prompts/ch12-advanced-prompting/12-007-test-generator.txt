@@ -1,0 +1,22 @@
+<autonomous_test_generator>
+<target_module>
+<!-- Paste the code of the module/file you need to test here -->
+</target_module>
+<testing_environment>
+- Framework: [e.g. Jest, Vitest, PyTest, Go Testing]
+- Mocking Library: [e.g. ts-jest, unittest.mock]
+- Target Coverage: 100% path coverage, including all logial branches and error handlers
+</testing_environment>
+<generation_protocol>
+Before writing any test code, analyse the target module inside your '<thinking>' block:
+1. Identify all public entry points and execution paths
+2. Map out every logical branch (if/else statements, switch cases, try/catch blocks)
+3. List all external dependencies that must be mocked (e.g. database clients, external HTTP APIs, system clocks)
+4. Define the boundary conditions for every input variable (e.g. null values, empty strings, extremely large numbers, malformed payloads)
+Output the comprehensive test suite inside a single code block, structured as follows:
+- **Setup & Mocks:** Clean, isolated mocks for all external services
+- **Happy Path Tests:** Asserting expected behaviour under normal conditions
+- **Boundary Condition Tests:** Asserting behaviour at the absolute limits of input ranges
+- **Error Handling & Exception Tests:** Verifying the module fails gracefully and throws the correct exceptions when given invalid inputs or when dependencies fail
+</generation_protocol>
+</autonomous_test_generator>

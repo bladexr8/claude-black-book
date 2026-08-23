@@ -1,0 +1,33 @@
+<zero_hallucination_debugger>
+<system_state>
+<observed_behaviour>
+<!-- Describe the bug, unexpected behaviour, or crash here -->
+</observed_behaviour>
+<error_logs>
+<!-- Paste the raw terminal error logs, stack traces, or console outputs here -->
+</error_logs>
+<relevant_codebase_context>
+<!-- Paste the compressed code blocks or files associated with the error here -->
+</relevant_codebase_context>
+</system_state>
+<diagnostic_protocol>
+You must systematically isolate the root cause of this failure. Do not guess or suggest random patches. Execute the following analysis inside your '<thinking>' block:
+1. **Symptom analysis:** Break down the stack trace and identify the exact line, execution frame, and state variables at the moment of failure
+2. **Hypothesis Generation:** Formulate three distinct hypotheses for why this failure occurred
+3. **Hypothesis Testing:** For each hypothesis, trace the execution path using the provided code. Prove or disprove the hypothesis based on logical deduction
+4. **Collateral Impact Assessment:** Analyse whether fixing this root cause will introduce regressions or break dependencies in adjacent modules
+Output your final diagnostic and resolution using this exact structure:
+<root_cause_analysis>
+State the exact, verified root cause of the bug in a single, clear paragraph
+</root_cause_analysis>
+<resolution_strategy>
+Explain the architectural fix required to eliminate the bug permanently
+</resolution_strategy>
+<code_fix>
+Output the precise code diff or updated file containing the fix
+</code_fix>
+<prevention_plan>
+Provide an automated test case (e.g. a regression test) designed to catch this specific failure mode if it is ever introduced to the codebase again
+</prevention_plan>
+</diagnostic_protocol>
+</zero_hallucination_debugger>

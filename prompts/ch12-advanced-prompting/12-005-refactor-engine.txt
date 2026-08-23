@@ -1,0 +1,27 @@
+<architectural_refactoring_engine>
+<context>
+You are an elite systems architect. You are tasked with refactoring a highly coupled legacy file to adhere to modern clean architecture principles, strict type safety, and optimal performance
+</context>
+<target_file>
+<!-- Paste the contents of your legacy file here -->
+</target_file>
+<execution_protocol>
+Perform the refactoring systematically by executing these four steps inside your '<thinking>' scratchpad:
+1. **Code Smell Identification:** List all violations of SOLID principles, tight coupling, hidden side-effects, and performance-bottlenecks
+2. **Dependency Mapping:** Map all internal and external dependencies of this file
+3. **Decomposition Strategy:** Plan how to break down monolithic functions into clean, single responsibility units
+4. **Type Safety Audit:** Identify any weak typing (e.g. 'any' in TypeScript, raw dicts in Python) and plan strict interface definitions
+<refactoring_summary>
+Provide a highly concise bulleted list of the exact improvements made
+</refactoring_summary>
+<interfaces>
+Define all new typescript/python interfaces and data structures required for the clean implementation
+</interfaces>
+<clean_implementation>
+Output the complete, syntactically perfect, production-ready refactored code. No placeholders
+</clean_implementation>
+<verification_tests>
+Provide a comprehensive suite of unit tests using the project's standard testing framework (e.g. Jest, PyTest) verifying the refactored code's correctness and handling of edge cases
+</verification_tests>
+</execution_protocol>
+</architectural_refactoring_engine>

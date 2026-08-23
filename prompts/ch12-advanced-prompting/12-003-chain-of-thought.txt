@@ -1,0 +1,14 @@
+<task>
+Optimise the database query patterns in our Django ORM layer for the 'Order' and 'Customer' models to eliminate the N+1 query problem
+</task>
+<reasoning_protocol>
+You must execute your work in two distinct, sequential phases:
+Phase 1: Cognitive Scratchpad(<thinking>)
+Inside this tag, you must:
+- Identify the exact lines of code causing the N+1 query patterns
+- Trace the execution path of the current queries and map their database round-trips
+- Formulate the optimal ORM optimisation strategy (e.g. 'select_related' vs 'prefetch_related' based on the database relationships)
+- Draft the optimised query structure and dry-run it mentally to ensure no data is lost or duplicated
+Phase 2: Execution(<output>)
+Only after closing your '<thinking>' tag, output the clean, refactored Pythin code inside markdown blocks
+</reasoning_protocol>
