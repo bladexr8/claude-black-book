@@ -1,0 +1,2 @@
+Write a unit test suite for 'processLegacyTransaction' in 'tests/legacyProcessor.test.js'
+The goal is to capture its current behaviour for various inputs (valid, invalid, edge cases) so we can ensure our refactoring does not alter the expected output.

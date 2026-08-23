@@ -1,0 +1,4 @@
+Analyse the function 'processLegacyTransaction' in 'src/legacy/processor.js'
+1. Explain what this function does in plain English
+2. Identify every file in the codebase that imports or calls this function
+3. Are there any global variables, state modifications, or side-effects hidden inside this logic?

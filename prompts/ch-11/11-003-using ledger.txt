@@ -1,0 +1,1 @@
+We are startind a new task. Read .claude-ledger.md to understand our goal, our progress, and the files we are working with. Keep this ledger updated as we make changes.

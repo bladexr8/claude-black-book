@@ -1,0 +1,6 @@
+Generate a high-level architectural blueprint of this repository.
+Identify:
+1. The primary Programming languages and frameworks used
+2. The core entry points of the application (e.g. main files, controllers, routers)
+3. The organisational pattern (e.g. MVC, clean architecture, microservices, monorepo)
+4. The flow of data from an incoming user request to the database

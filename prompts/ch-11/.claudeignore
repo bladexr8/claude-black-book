@@ -1,0 +1,70 @@
+# .claudeignore - Production-Grade Filter for Large Repositories
+
+# Dependencies and Package Managers
+node_modules/
+bower_components/
+.pnpm-store/
+vendor/
+packages/*/node_modules
+
+# Build Artifacts & Compiled Code
+dist/
+build/
+out/
+.next/
+.nuxt/
+target/
+bin/
+obj/
+*.pyc
+*.class
+*.o
+*.so
+*.dll
+
+# Version Control & IDEs
+.git/
+.svn/
+.hg/
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Media Assets & Binary Files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.pdf
+*.zip
+*.tar.gz
+*.rar
+*.mp4
+*.mp3
+public/assets/
+assets/raw
+
+# Logs, Databases & Temporary Files
+*.log
+logs/
+tmp/
+temp/
+*.env*
+*.db
+*.sqlite
+.cache/
+.sass-cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test Coverage & Reports
+coverage/
+.nyc_output/
+htmlcov/

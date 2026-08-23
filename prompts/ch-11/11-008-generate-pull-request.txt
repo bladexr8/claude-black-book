@@ -1,0 +1,6 @@
+Generate a professional Pull Request description based on our git diff.
+Use this structure:
+1. **Summary**: A concise explanation of the changes and why they were made
+2. **Impact**: Which systems or modules are affected
+3. **Testing Done**: List the tests run and their results
+4. **Reviewer Notes**: Any specific areas where you want feedback or caution
