@@ -1,0 +1,1 @@
+Write a secure Express middleware for JWT authentiation in TypeScript. It should extract the token from the Authorization header (Bearer token), verify it using a secret key stored in environment variables, handle token expiration errors gracefully, and append the validated user payload to the Express Request object. Provide a helper function to generate these tokens safely.

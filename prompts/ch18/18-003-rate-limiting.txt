@@ -1,0 +1,1 @@
+Implement a rate-limiting middleware for our Express application. Limit requests to 100 per 15 minutes for general routes, and limit sensitive routes like login or token generation to 5 requests per minute. Use custom JSON responses for rate-limited requests that match our standard API response format.

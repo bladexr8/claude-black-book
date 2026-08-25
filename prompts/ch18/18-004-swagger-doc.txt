@@ -1,0 +1,1 @@
+Configure Swagger UI in our Express application. Use swagger-jsdoc and swagger-ui-express to auto-generate API documentation from inline JSDoc comments in our route files. Document the POST and GET routes for our shipments resource, including the authentication headers and Zod schemas.

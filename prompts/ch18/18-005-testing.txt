@@ -1,0 +1,1 @@
+Write integration tests for our shipments API routes using Jest and Supertest. Test the following scenarios: 1) Creating a shipment fails if the authentication token is missing. 2) Creating a shipment succeeeds with valid data and a valid JWT. 3) Creating a shipment fails if the input data violates our Zod schema validation rules.

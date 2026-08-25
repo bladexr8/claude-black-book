@@ -1,0 +1,1 @@
+Create a modular Express router for a 'shipments' resource in TypeScript. The router must follow strict RESTful conventions. Use Zod to validate incoming request bodies for POST and PUT requests. Implement mock database actions for now, but structure the code with clean separation of concerns so we can easily plug in a database later.
