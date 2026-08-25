@@ -1,0 +1,1 @@
+Create a secure logging utility in Python. It should wrap the standard logging library but automatically redact sensitive fields like 'password', 'token', 'email', and 'credit card' from any dictionary or string logged. Use a clear placeholder like '[REDACTED]'

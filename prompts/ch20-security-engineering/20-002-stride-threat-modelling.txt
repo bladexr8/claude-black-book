@@ -1,0 +1,7 @@
+Let's perform an interactive threat modelling session using the STRIDE framework for a new feature: a passwordless login system that emails a secure magic link to users.
+Here is the high-level flow:
+1. User enters their email in the UI
+2. The backend generates a random token, saves it to the database with an expiration time, and sends a link containing the token to the user's email.
+3. The user clicks the link, sending the token back to our backend
+4. The backend verifies the token, marks it as used, and issues a JWT session token to the user
+Analyze this flow for potential STRIDE threats. For each threat identified, provide a concrete mitigation strategy.
