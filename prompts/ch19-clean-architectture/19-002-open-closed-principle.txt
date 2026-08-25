@@ -1,0 +1,1 @@
+Refactor the PaymentProcessor class using the Strategy pattern so that we can support new payment gateways in the future without modifying the core checkout logic. Define a clear IPaymentGateway interface.

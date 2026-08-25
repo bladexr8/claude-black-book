@@ -1,0 +1,1 @@
+Refactor our registration workflow to implement Dependency Inversion. The RegisterUserUseCase must accept an abstract IUserRepository and IEmailer in its constructor, rather than importing specific database models or email clients.

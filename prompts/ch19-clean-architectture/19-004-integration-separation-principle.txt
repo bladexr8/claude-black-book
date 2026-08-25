@@ -1,0 +1,1 @@
+Break down the large IService interface into smaller, cohesive interfaces like IReadable, IWritable, and IDeletable so our read-only views do not have to implement unused write operations.

@@ -1,0 +1,1 @@
+Review src/services/userService.ts and identify any violations of the Single Responsibility Principle. Refactor any logic that handles both user validation, database persistence, and external notifications into separate, dedicated classes.
